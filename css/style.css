@@ -367,11 +367,50 @@ nav a.active {
 
 .modalites {
   margin-top: var(--space-lg);
-  max-width: 640px;
 }
 
-.modalites p {
+.modalites h3 {
+  margin-bottom: var(--space-md);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+}
+
+.step-card {
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  background: var(--color-bg-alt);
+  text-align: center;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
   margin-bottom: var(--space-sm);
+}
+
+.step-card h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+  color: var(--color-text);
+}
+
+.step-card p {
+  font-size: 0.9rem;
+  max-width: none;
 }
 
 /* ============================================
