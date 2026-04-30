@@ -413,6 +413,11 @@ nav a.active {
   max-width: none;
 }
 
+.steps-cta {
+  text-align: center;
+  margin-top: var(--space-md);
+}
+
 /* ============================================
    À PROPOS
    ============================================ */
