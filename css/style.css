@@ -270,8 +270,9 @@ nav a.active {
 }
 
 .benefit-card .icon {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: var(--space-sm);
+  color: var(--color-accent);
 }
 
 .benefit-card h3 {
@@ -303,6 +304,7 @@ nav a.active {
 .use-case h3 {
   color: var(--color-accent);
   font-size: 1rem;
+  letter-spacing: 0.02em;
 }
 
 .use-case p {
