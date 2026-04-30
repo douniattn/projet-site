@@ -207,7 +207,7 @@ nav a.active {
   font-size: 0.95rem;
   font-weight: 500;
   border: none;
-  border-radius: 4px;
+  border-radius: 50px;
   cursor: pointer;
   transition: background 0.2s, transform 0.1s;
 }
@@ -251,7 +251,7 @@ nav a.active {
 .benefit-card {
   padding: var(--space-md);
   border: 1px solid var(--color-border);
-  border-radius: 8px;
+  border-radius: 20px;
   background: var(--color-bg);
 }
 
@@ -282,7 +282,7 @@ nav a.active {
 .use-case {
   padding: var(--space-md);
   background: var(--color-bg);
-  border-radius: 8px;
+  border-radius: 20px;
   border: 1px solid var(--color-border);
 }
 
@@ -305,17 +305,19 @@ nav a.active {
 .inclus-list,
 .exclus-list {
   padding: var(--space-md);
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .inclus-list {
   background: var(--color-bg-alt);
   border: 1px solid var(--color-border);
+  border-radius: 20px;
 }
 
 .exclus-list {
   background: var(--color-bg);
   border: 1px solid var(--color-border);
+  border-radius: 20px;
 }
 
 .inclus-list h3,
@@ -472,7 +474,7 @@ nav a.active {
 .form-group select {
   padding: 0.75rem 1rem;
   border: 1px solid var(--color-border);
-  border-radius: 4px;
+  border-radius: 12px;
   font-family: var(--font-main);
   font-size: 0.95rem;
   background: var(--color-input-bg);
@@ -502,7 +504,7 @@ nav a.active {
 .contact-info {
   padding: var(--space-md);
   background: var(--color-bg-alt);
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .contact-info h3 {
@@ -523,7 +525,7 @@ nav a.active {
   padding: var(--space-md);
   background: var(--color-bg-alt);
   border: 1px solid var(--color-accent);
-  border-radius: 8px;
+  border-radius: 20px;
   text-align: center;
 }
 
