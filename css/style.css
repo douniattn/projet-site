@@ -565,10 +565,72 @@ footer {
   text-align: center;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+
 footer p {
   font-size: 0.85rem;
   color: var(--color-text-light);
   max-width: none;
+}
+
+/* ============================================
+   LEGAL PAGES
+   ============================================ */
+
+.legal-page {
+  padding: var(--space-xl) 0;
+  min-height: 60vh;
+}
+
+.legal-page h1 {
+  margin-bottom: var(--space-sm);
+}
+
+.legal-page .legal-intro {
+  font-size: 1.05rem;
+  margin-bottom: var(--space-lg);
+}
+
+.legal-page h3 {
+  color: var(--color-text);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+}
+
+.legal-page p {
+  margin-bottom: var(--space-sm);
+}
+
+.legal-page ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--space-sm);
+}
+
+.legal-page li {
+  padding: 0.3rem 0;
+  color: var(--color-text-light);
+  font-size: 0.95rem;
+}
+
+.legal-page li::before {
+  content: "— ";
+  color: var(--color-accent);
 }
 
 /* ============================================
